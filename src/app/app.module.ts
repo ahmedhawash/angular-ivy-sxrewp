@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 
@@ -15,6 +16,7 @@ import { AppComponent } from './app.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    HttpClientModule,
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
